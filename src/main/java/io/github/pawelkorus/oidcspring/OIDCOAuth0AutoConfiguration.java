@@ -1,8 +1,7 @@
 package io.github.pawelkorus.oidcspring;
 
 import com.auth0.jwt.JWT;
-import io.github.pawelkorus.soidc.OIDCTokenDecoder;
-import io.github.pawelkorus.soidc.oauth0.OIDCOAuth0TokenDecoder;
+import io.github.pawelkorus.oidcspring.oauth0.OIDCOAuth0TokenDecoder;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.context.annotation.Bean;

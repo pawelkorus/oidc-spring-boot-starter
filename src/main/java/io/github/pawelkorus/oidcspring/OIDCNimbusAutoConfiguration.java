@@ -1,8 +1,7 @@
 package io.github.pawelkorus.oidcspring;
 
 import com.nimbusds.jwt.SignedJWT;
-import io.github.pawelkorus.soidc.OIDCTokenDecoder;
-import io.github.pawelkorus.soidc.nimbus.OIDCNimbusTokenDecoder;
+import io.github.pawelkorus.oidcspring.nimbus.OIDCNimbusTokenDecoder;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.context.annotation.Bean;

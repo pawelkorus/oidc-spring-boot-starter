@@ -1,7 +1,7 @@
 package io.github.pawelkorus.oidcspring;
 
-import io.github.pawelkorus.soidc.spring.DefaultOIDCUserDetailsService;
-import io.github.pawelkorus.soidc.spring.OIDCUserDetailsService;
+import io.github.pawelkorus.oidcspring.spring.DefaultOIDCUserDetailsService;
+import io.github.pawelkorus.oidcspring.spring.OIDCUserDetailsService;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
