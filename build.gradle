@@ -9,13 +9,14 @@ version '1.0-SNAPSHOT'
 sourceCompatibility = 1.8
 
 repositories {
+    mavenLocal()
     maven { url 'https://jitpack.io' }
     mavenCentral()
 }
 
 dependencies {
     compile 'org.springframework.boot:spring-boot-starter:1.5.12.RELEASE'
-    compile 'io.github.pawelkorus:spring-openidconnect:master-SNAPSHOT'
+    compile 'io.github.pawelkorus:oidc-spring:-SNAPSHOT'
 
     compileOnly 'com.auth0:java-jwt:3.3.0'
     compileOnly 'com.nimbusds:nimbus-jose-jwt:4.11'
